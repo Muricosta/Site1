@@ -1,0 +1,185 @@
+body {
+    font-family: Rubik, Raleway,bold, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #F4F4F4;
+    box-shadow: 8px 7px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.1px;        
+}
+.fontesbarra{
+    font-family: Rubik, Raleway, sans-serif !important;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+}
+.unip-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 13px;
+}
+.botaovoltar{
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+.botaoproxima{
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    float: right;
+}
+.tirarlinkbotao{
+    text-decoration: none;
+    color: #000;
+}
+.tamanhoresposta{
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.sidebar {
+    width: 100%;
+    margin-bottom: 10px;
+    width: 220px;
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.sidebar h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+.content {
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    flex-grow: 1;
+    border-radius: px;
+    box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s, transform 0.2s;
+}
+.sidebar ul li a:hover {
+    background-color: #023d71   ;
+    transform: scale(1.05);
+}
+.sidebar2{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s, transform 0.2s;
+}
+.content h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.formula {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin:0 auto;
+}
+body div nav ul li menu{
+    text-decoration: none;
+}
+.exercise {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #333;
+}
+p {
+    margin: 5px 0;
+}
+.question {
+    font-weight: bold;
+}
+.h22{
+    color: #ffffff;
+}
+.centerimg{
+    text-align: center;
+    margin:0 auto;
+    padding:0 20px;
+}
+iframe {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+    border: none;
+}
+.centralizartxtvid {
+    text-align: center;
+    margin-top: 20px; 
+    font-weight: bold; 
+}
+.divIframe {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .content {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
